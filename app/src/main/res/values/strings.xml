@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AppKeddit</string>
+    <string name="contentdescription">contentDescription</string>
 </resources>
