@@ -16,7 +16,7 @@ fun Long.getFriendlyTime(): String {
     diffInSeconds /= 24
     val days = if (diffInSeconds >= 30) (diffInSeconds % 30) else diffInSeconds.toInt()
     diffInSeconds /= 30
-    var months = if (diffInSeconds >= 12) (diffInSeconds % 12) else diffInSeconds.toInt()
+    val months = if (diffInSeconds >= 12) (diffInSeconds % 12) else diffInSeconds.toInt()
     diffInSeconds /= 12
     val years = diffInSeconds
 
